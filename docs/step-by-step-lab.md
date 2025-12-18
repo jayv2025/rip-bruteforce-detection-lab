@@ -62,24 +62,30 @@ auditpol /set /category:\* /success:enable /failure:enable
 - Setting -> Accessibility -> Toggle on-screen keyboard on
 - Press Window icon + R to open registry
 - Type: secpol.msc
-- Go to security setting -> advance audit policy configuration -> System audit policies
-      - In logon/logoff: enable success + failure for:
-        - audit logon
-        - audit logoff
-        - audit other logon/logoff events
-        - audit special logon.
-      - In account management: enable success + failure for
-        - audit user account management
-        - audit security group management
-        - audit computer account management
-      - Privilege use: enable success + failure for:
-        - audit sensitive privilege use
-      - Object access: enable success + failure for:
-        - audit file system
-        - audit registry
-      - Detailed tracking: enable success + failure for:
-        - audit process creation
-        - audit process termination.
+-Go to Security Settings → Advanced Audit Policy Configuration → System Audit Policies.
+
+- **Logon/Logoff:** enable Success + Failure for:
+  - Audit logon
+  - Audit logoff
+  - Audit other logon/logoff events
+  - Audit special logon
+
+- **Account Management:** enable Success + Failure for:
+  - Audit user account management
+  - Audit security group management
+  - Audit computer account management
+
+- **Privilege Use:** enable Success + Failure for:
+  - Audit sensitive privilege use
+
+- **Object Access:** enable Success + Failure for:
+  - Audit file system
+  - Audit registry
+
+- **Detailed Tracking:** enable Success + Failure for:
+  - Audit process creation
+  - Audit process termination
+
 
 ![configuration snippet](images/step4.png)
 
