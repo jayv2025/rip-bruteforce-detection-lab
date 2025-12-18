@@ -1,4 +1,4 @@
-#rdp-bruteforce-detection-lab
+## rdp-bruteforce-detection-lab
   Simulated RDP brute-force attack with Windows event log analysis and MITRE ATT&CK mapping.
 
 ## Overview
