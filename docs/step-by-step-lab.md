@@ -63,7 +63,7 @@ auditpol /set /category:\* /success:enable /failure:enable
 - Press Window icon + R to open registry
 - Type: secpol.msc
 - Go to security setting -> advance audit policy configuration -> System audit policies
-  - In logon/logoff: enable success + failure for:
+      - In logon/logoff: enable success + failure for:
          - audit logon
          - audit logoff
          - audit other logon/logoff events
