@@ -62,7 +62,7 @@ auditpol /set /category:\* /success:enable /failure:enable
 - Setting -> Accessibility -> Toggle on-screen keyboard on
 - Press Window icon + R to open registry
 - Type: secpol.msc
-- Go to security setting -> advance audit policy configuration 🡪 System audit policies
+- Go to security setting -> advance audit policy configuration -> System audit policies
   - - In logon/logoff: enable success + failure for:
             - audit logon
             - audit logoff
