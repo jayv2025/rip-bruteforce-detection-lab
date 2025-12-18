@@ -64,10 +64,10 @@ auditpol /set /category:\* /success:enable /failure:enable
 - Type: secpol.msc
 - Go to security setting -> advance audit policy configuration -> System audit policies
   - - In logon/logoff: enable success + failure for:
-            - audit logon
-            - audit logoff
-            - audit other logon/logoff events
-            - audit special logon.
+         - audit logon
+         - audit logoff
+         - audit other logon/logoff events
+         - audit special logon.
       - In account management: enable success + failure for
         - audit user account management
         - audit security group management
